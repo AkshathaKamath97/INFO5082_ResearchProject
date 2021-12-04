@@ -354,14 +354,17 @@ From the above table, we can see that the models Hyperparameter tuned AdaBoost, 
 
 The above table has the precision, recall, f1 and accuracy scores of all models. Not just the accuracy, but even the precision and recall scores indicate that Random Forest and Hyperparameter tuned AdaBoost algorithms performed the best with the given data. In the graphs below, the main features that contribute towards readmissions are plotted.
 
-<h2>Important Features</h2>
-![image](https://user-images.githubusercontent.com/59897290/144699063-fbecdb90-e9a2-4cbd-b568-c9bc5f75b96c.png)
+Important Features
+![image](https://user-images.githubusercontent.com/59897290/144699543-77d3c14c-148c-486c-8453-c46a20e196cb.png)
 
 
 In the above screenshot, the top 5 attributes that are responsible for the readmissions were found. They are num\_lab\_procedures, num\_medications, time\_in\_hospital, number\_inpatient, number\_diagnoses, num\_procedures. There are many more factors like diagnosis of specific diseases which also influence the increase in the readmission rate. American hospitals can be made aware of these factors, and they can be informed as to how these factors are increasing the rate of readmission. These statistics are constantly tracked, and hospitals with poor service and repeated admissions are majorly affected. Reducing readmissions can reduce costs for patients and at the same time build reputation for the hospitals. 
 
-<h2>ROC Curve</h2>
-![image](https://user-images.githubusercontent.com/59897290/144699049-98a162a3-93e0-41b2-bb09-819be9d8b4c9.png)
+ROC Curve
+![image](https://user-images.githubusercontent.com/59897290/144699538-b4188f1f-e374-44ff-bb83-53a1fd7ed548.png)
+
+
+
 
 
 To compare all the algorithms, the ROC curve was plotted for all the models implemented. In the graph, we can see that the plotting for Random Forest and Hyperparameter Tuned AdaBoost show the best performances as they are the closest to the top left corner of the graph. In this graph True positive rate of algorithms is plotted against False positive rate of algorithms. 
