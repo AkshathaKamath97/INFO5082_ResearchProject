@@ -9,7 +9,7 @@ INFO 5082		Fall 2021
 Diabetes is a disease that is prevalent very prominently in today's world. It is a condition that occurs when an individual's blood sugar level is higher than normal. Insulin, which is a hormone secreted in the pancreas, helps in regulating blood glucose levels. Diabetes has no cure, which is why it is important to take care of being diagnosed with diabetes. Millions of people are admitted to hospitals in the early stages of diagnosis and when the effects become worse. Getting admitted once should guide the patient towards a steady recovery of health. If the patient is required to get readmitted into a hospital, it can question the hospital's capability to help people recover from diseases. This research is carried out with a motive to determine the trend in which diabetes affects, which group of people is affected, and what are the reasons if any for readmission and assess the right type of diabetes medications. The progress so far is the collection of the data set, data cleaning, identifying the different attributes of the dataset, shortlisting Machine Learning algorithms that could be implemented in the further stages of the research, and the literature review of the related works. 
 
 In the world of data science, if there is any domain that involves a variety of data that is concentrated towards a cause or a result, it is the field of health care. There is no exact set of features that can be considered to determine a certain condition or disease. Therefore, this topic was selected, to make use of the features to carry out an analysis of data, make use of models provided by technologies like Machine Learning to draw inferences and suggest a better approach and treatment of diabetes and control the readmission rate. Through this research, we will be able to apply the methods of data analysis and use them to make decisions and suggest solutions towards an existing problem. Being able to apply data science into a real-world scenario and bring results will complete my initial pursuit towards learning data science. Medical data is very important, yet sensitive data which needs thorough studying and analysis to obtain the right results. Not only does this focus on an individual’s health, but also the health care industry. Mainly because the analysis is being carried out on a specified set of data. This is a small step towards analysis of medical data, and there are many scientists with experience who have carried out detail research. I wanted to study more applications of machine learning and data analysis and looking forward to applying advance technologies like deep learning and neural networks. Below there are a few related works that I have reviewed that have detailed research on diabetes related data. The ideal goal of this research is to be able to implement it with live, real-time data, which is currently out of scope for academic-level research. To conclude, this research is to understand the gender and age group affected, predict its frequency, and predict the probability of patient readmission rate with the help of data science and visualization concepts.
-![image](https://user-images.githubusercontent.com/59897290/144698457-ce630458-e058-49b0-94b3-57cef8e93da6.png)
+
 
 <h2><u>STATEMENT OF THE PROJECT PROBLEM</u></h2>
 
@@ -131,9 +131,10 @@ The source of the dataset is from the UCI website, it includes over 50 attribute
 
 <https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008>
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.001.png)![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.002.png)**Variables Description:**
-**
-` `*Img src: https://www.hindawi.com/journals/bmri/2014/781670/tab1/*
+
+**Variables Description:**
+![image](https://user-images.githubusercontent.com/59897290/144698482-16ccf24d-0304-460f-9215-abf08e3c5d50.png)![image](https://user-images.githubusercontent.com/59897290/144698485-92d3a18f-6f0f-4e07-8c8d-c7a3905ca202.png)
+*Img src: https://www.hindawi.com/journals/bmri/2014/781670/tab1/*
 
 <h2><u>RESEARCH DESIGN AND METHODOLOGY</u></h2>
 
@@ -189,21 +190,24 @@ Gaussian Naïve Bayes is a rendition of the Naïve Bayes algorithm that has the 
 
 
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.003.png)**DATA ANALYSIS, DATA VISUALIZATIONS AND RESULTS**
+**DATA ANALYSIS, DATA VISUALIZATIONS AND RESULTS**
+![image](https://user-images.githubusercontent.com/59897290/144698515-f43337f9-8d57-43d5-a5de-f5b4366f8503.png)
 
 The above graph shows the scatter matrix plotted for the variables *'num\_procedures', 'num\_medications', 'number\_emergency', 'time\_in\_hospital'* and *'num\_lab\_procedures'*.
 
 
 
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.004.png)The above image shows the histogram plotted for the numerical variables like *‘num\_procedures’, ‘time\_in\_hospital’, ‘admission\_source\_id’* and more in the dataset.
+![image](https://user-images.githubusercontent.com/59897290/144698518-762cacfc-296a-48c9-af0b-2511697fec14.png)The above image shows the histogram plotted for the numerical variables like *‘num\_procedures’, ‘time\_in\_hospital’, ‘admission\_source\_id’* and more in the dataset.
 
 
 
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.005.png)![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.006.png)The below graph shows the number of patients *‘readmitted’* to the hospital within 30 days, after 30 days and patients who didn’t get readmitted at all.
+The below graph shows the number of patients *‘readmitted’* to the hospital within 30 days, after 30 days and patients who didn’t get readmitted at all.
+![image](https://user-images.githubusercontent.com/59897290/144698526-e20446df-6cc0-4158-9ec2-5be37c3d2bbb.png)
 
 The below graph shows the race with the number of people highly affected with diabetes.
+![image](https://user-images.githubusercontent.com/59897290/144698559-609f582e-01c6-4931-86f9-68279981519b.png)
 
 
 
@@ -216,76 +220,110 @@ The below graph shows the race with the number of people highly affected with di
 
 
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.007.png)The below graph shows all the age group which is affected with diabetes
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.008.png)The below graph shows the gender affected with diabetes
+The below graph shows all the age group which is affected with diabetes
+![image](https://user-images.githubusercontent.com/59897290/144698566-90db1d36-f971-407f-9002-b399c1706cd7.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.009.png)The below graph shows the relations between number of medications and the age group of people.
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.010.png)![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.011.png)The below graph shows the relations between the readmission rate and the age group of people.
+The below graph shows the gender affected with diabetes
+![image](https://user-images.githubusercontent.com/59897290/144698569-0a9341d0-86cc-4e13-90dc-f6c9fbdb57ec.png)
+
+
+The below graph shows the relations between number of medications and the age group of people.
+![image](https://user-images.githubusercontent.com/59897290/144698574-a27cd4c1-3f39-49f3-8009-15afa2866149.png)
+
+
+The below graph shows the relations between the readmission rate and the age group of people.
+![image](https://user-images.githubusercontent.com/59897290/144698579-e5ae4adc-7487-427c-a08e-0eb93606138f.png)
+
 
 The below graph shows the relations between readmission rate and the gender.
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.012.png)The data is split into X\_train,Y\_train, X\_test and Y\_test. These training and testing data are used in the Machine Learning models that are implemented. 
+![image](https://user-images.githubusercontent.com/59897290/144698586-a5a22d16-6f18-4c08-9be5-ea49897d0d48.png)
+The data is split into X\_train,Y\_train, X\_test and Y\_test. These training and testing data are used in the Machine Learning models that are implemented. 
 
 **Logistic Regression**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.013.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698655-2f84caf7-d7ea-4bc2-994f-87a78a38b8fd.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.014.png) Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698662-a985e878-0fb1-414d-aad7-e721194eb0b1.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.015.png)Classification report
+Classification report
+![image](https://user-images.githubusercontent.com/59897290/144698664-5398c257-e05c-48a0-98e5-99ddb0113de4.png)
+
 
 **Decision Tree**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.016.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698680-e3adcdb3-7417-43f2-b2ff-7f434f26fd0d.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.017.png)Confusion Matrix:
+Confusion Matrix:
+![image](https://user-images.githubusercontent.com/59897290/144698684-9cba00ec-3555-4fe9-9030-79e0cad38fbf.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.018.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698688-4a659bf4-790e-412e-9d3a-122980149858.png)
+
+
 
 **Random Forest Classifier**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.019.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698694-985d21db-cf44-4085-a5b9-4147f2ab26b3.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.020.png)Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698700-5ece977d-9cc3-4c77-8ced-a7a4169c5a88.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.015.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698707-1bb690d2-a391-4f2d-b185-a6a6e42760b1.png)
 
 
 **AdaBoosted Classification Model**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.021.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698721-5c6ce320-3472-4a66-babe-3f0dd4376828.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.022.png)Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698725-a83d5796-24c2-48f8-90e4-e748cee6b3d1.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.023.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698730-9f61a605-5075-4063-adb8-2cd071e003f5.png)
 
 
 **Hyperparameter Tuning AdaBoosted Classification Model**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.024.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698740-83fb55f0-119b-4c4a-a761-7eeea799154f.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.022.png)Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698744-c0fd140f-7f58-4c5a-b6da-115b9cf4cfc1.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.015.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698746-e9c411cb-8e31-4f8f-aa41-0c519f76f39a.png)
 
 **KNN Classifier**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.025.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698753-53f641b4-ab06-4eaa-b0bc-799a74497f42.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.026.png)Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698754-c0e8d819-67dc-4555-9d79-2b70a9f186d1.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.027.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698759-17781f77-258c-4454-b485-add374f19749.png)
 
 
 **Gaussian Naïve Bayes**
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.028.png)Accuracy
+Accuracy
+![image](https://user-images.githubusercontent.com/59897290/144698773-ea3e96a4-c8f5-42b9-a57c-ccfd49a90663.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.029.png)Confusion Matrix
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/59897290/144698774-c81761e0-97bd-4d34-a8ac-67de99bbed40.png)
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.030.png)Classification Report
+Classification Report
+![image](https://user-images.githubusercontent.com/59897290/144698778-0a434af6-0bd9-4045-8a76-1bf0d4c3952c.png)
 
 
 <h2><u>USAGE OF RESULTS</u></h2>
@@ -306,11 +344,12 @@ From the above table, we can see that the models Hyperparameter tuned AdaBoost, 
 
 The above table has the precision, recall, f1 and accuracy scores of all models. Not just the accuracy, but even the precision and recall scores indicate that Random Forest and Hyperparameter tuned AdaBoost algorithms performed the best with the given data. In the graphs below, the main features that contribute towards readmissions are plotted.
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.031.png)Important Features
+![image](https://user-images.githubusercontent.com/59897290/144698786-649ee516-8131-4036-acca-6786ef032422.png)
+**Important Features**
 
 In the above screenshot, the top 5 attributes that are responsible for the readmissions were found. They are num\_lab\_procedures, num\_medications, time\_in\_hospital, number\_inpatient, number\_diagnoses, num\_procedures. There are many more factors like diagnosis of specific diseases which also influence the increase in the readmission rate. American hospitals can be made aware of these factors, and they can be informed as to how these factors are increasing the rate of readmission. These statistics are constantly tracked, and hospitals with poor service and repeated admissions are majorly affected. Reducing readmissions can reduce costs for patients and at the same time build reputation for the hospitals. 
 
-![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.032.png)ROC Curve
+![image](https://user-images.githubusercontent.com/59897290/144698792-338b5020-b7e9-4a98-bcf6-b6248f65a429.png)ROC Curve
 
 To compare all the algorithms, the ROC curve was plotted for all the models implemented. In the graph, we can see that the plotting for Random Forest and Hyperparameter Tuned AdaBoost show the best performances as they are the closest to the top left corner of the graph. In this graph True positive rate of algorithms is plotted against False positive rate of algorithms. 
 
