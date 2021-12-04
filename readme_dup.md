@@ -344,12 +344,14 @@ From the above table, we can see that the models Hyperparameter tuned AdaBoost, 
 
 The above table has the precision, recall, f1 and accuracy scores of all models. Not just the accuracy, but even the precision and recall scores indicate that Random Forest and Hyperparameter tuned AdaBoost algorithms performed the best with the given data. In the graphs below, the main features that contribute towards readmissions are plotted.
 
+<h2>Important Features</h2>
 ![image](https://user-images.githubusercontent.com/59897290/144698786-649ee516-8131-4036-acca-6786ef032422.png)
-**Important Features**
+
 
 In the above screenshot, the top 5 attributes that are responsible for the readmissions were found. They are num\_lab\_procedures, num\_medications, time\_in\_hospital, number\_inpatient, number\_diagnoses, num\_procedures. There are many more factors like diagnosis of specific diseases which also influence the increase in the readmission rate. American hospitals can be made aware of these factors, and they can be informed as to how these factors are increasing the rate of readmission. These statistics are constantly tracked, and hospitals with poor service and repeated admissions are majorly affected. Reducing readmissions can reduce costs for patients and at the same time build reputation for the hospitals. 
 
-![image](https://user-images.githubusercontent.com/59897290/144698792-338b5020-b7e9-4a98-bcf6-b6248f65a429.png)ROC Curve
+<h2>ROC Curve</h2>
+![image](https://user-images.githubusercontent.com/59897290/144698792-338b5020-b7e9-4a98-bcf6-b6248f65a429.png)
 
 To compare all the algorithms, the ROC curve was plotted for all the models implemented. In the graph, we can see that the plotting for Random Forest and Hyperparameter Tuned AdaBoost show the best performances as they are the closest to the top left corner of the graph. In this graph True positive rate of algorithms is plotted against False positive rate of algorithms. 
 
