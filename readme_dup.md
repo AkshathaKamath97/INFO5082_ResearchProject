@@ -34,7 +34,7 @@ This research has been carried out to predict the rate of readmission to hospita
 
  After carrying out the analysis, the authors posted the statistical results of the analysis showing the percentages of the number of times HbA1c was measured throughout the treatment and the measures taken after the measurement, considering the various factors that were taken from the dataset. The results were plotted and represented graphically. The authors concluded that the measurement HbA1c for diabetic patients turned out to be a very useful factor to predict the rate of readmission. It provided insights to develop strategies to reduce readmission rates, reducing the costs incurred. The reason for readmission differed significantly between patients that had their samples collected during their diagnosis of diabetes and patients that had their samples collected for other causes, which had a higher rate. Readmission of diabetic patients was associated with the decision to test for hemoglobin.
 
-1. **Factors Affecting Costs and Utilization of Type 2 Diabetes Healthcare: A Cross-Sectional Survey among 15 Hospitals in Urban China.**
+2. **Factors Affecting Costs and Utilization of Type 2 Diabetes Healthcare: A Cross-Sectional Survey among 15 Hospitals in Urban China.**
 
 **Purpose of Study**
 
@@ -56,7 +56,7 @@ This research has been carried out to predict the rate of readmission to hospita
 
 
 
-1. **Factors Affecting Health-Care Costs and Hospitalizations Among Diabetic Patients in Thai Public Hospitals** 
+3. **Factors Affecting Health-Care Costs and Hospitalizations Among Diabetic Patients in Thai Public Hospitals** 
 
 **Purpose of Study**
 
@@ -74,7 +74,7 @@ This research has been carried out to predict the rate of readmission to hospita
 
  Diabetes patients who used insulin had considerably greater healthcare expenses and a higher likelihood of hospitalization than those who did not. Comorbidities such as hypertension, cancer, nephropathy, retinopathy, and so on were similarly linked to higher healthcare expenditures. Attributes that are influencing healthcare costs and patient admission might help healthcare professionals to improve patient management and minimize healthcare expenses in the future.
 
-1. **Diabetes and Gender**
+4. **Diabetes and Gender**
 
 **Purpose of Study**
 
@@ -92,7 +92,7 @@ This research has been carried out to predict the rate of readmission to hospita
 
  The authors conclude that the effects of both male and female genders are present in both Type 1 and Type 2 diabetes forms. The observational experiments considering different factors like age, puberty, hormonal changes, and the existence of other autoimmune diseases like Rheumatoid arthritis, which could lead to the existence of diabetes in an individual. The authors concluded that there is a challenge in type 1 and type 2 diabetes to identify and unlock the corrective forces before the individual being diagnosed with the disease.
 
-1. **Impact of Diabetes on Hospital Admission and Length of Stay Among a General Population Aged 45 Year or More: A Record Linkage Study.**
+5. **Impact of Diabetes on Hospital Admission and Length of Stay Among a General Population Aged 45 Year or More: A Record Linkage Study.**
 
 **Purpose of Study**
 
@@ -115,10 +115,10 @@ The reduction of risk, which is directly associated with the characteristics, is
 **OBJECTIVES OF THE STUDY**
 
 1. To determine the spectrum of the age group that is diabetic. 
-1. To discover the effect of diabetes across races and gender.
-1. To discover the correlation between the age group and the number of medications prescribed for diabetic patients. 
-1. To identify the attributes and factors that play a major part in the readmission of diabetic patients
-1. To implement machine learning models to find the best suited algorithm for the problem. 
+2. To discover the effect of diabetes across races and gender.
+3. To discover the correlation between the age group and the number of medications prescribed for diabetic patients. 
+4. To identify the attributes and factors that play a major part in the readmission of diabetic patients
+5. To implement machine learning models to find the best suited algorithm for the problem. 
 
 **DATA COLLECTION**
 
@@ -137,16 +137,16 @@ The source of the dataset is from the UCI website, it includes over 50 attribute
 **RESEARCH DESIGN AND METHODOLOGY**
 
 1. Data collection. 
-1. Substitution the missing data values.
-1. Data cleaning and preparation.
-1. Standardizations.
-1. Performing Exploratory Data Analysis.
-1. Data visualization.
-1. Data Modeling.
-1. Prediction using Machine Learning models
-1. Visualization of results
-1. Comparison of results of Machine Learning models.
-1. Determining the most accurate model for the dataset.
+2. Substitution the missing data values.
+3. Data cleaning and preparation.
+4. Standardizations.
+5. Performing Exploratory Data Analysis.
+6. Data visualization.
+7. Data Modeling.
+8. Prediction using Machine Learning models
+9. Visualization of results
+10. Comparison of results of Machine Learning models.
+11. Determining the most accurate model for the dataset.
 
  The process of the research, after the initial proposal, will start with a collection of data. Every data set is prone to having null values, insignificant attributes, and missing data. To bring uniformity in the data and make it suitable to carry out data analysis, the missing values are either filled or dropped completely. The same applies to the attributes that might not be significant towards the data analysis and prediction. In the dataset, there is a column called *readmitted,* which has 3 types* of values. To make it categorical, so that it can be used with ML models, another column called *readmissions* was created and it has the values 1 and 0, for yes and no respectively. Along with the main CSV file, there is another csv file which has the ID mapping. In the main dataset, there were ID allotted to people that signified that they had expired. Entries with these ID mappings were removed from the dataset. After cleaning and preparing the data, the data was brought into a uniform format, making it convenient to use for further steps of research.
 
