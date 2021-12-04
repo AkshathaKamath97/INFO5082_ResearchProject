@@ -14,7 +14,7 @@ In the world of data science, if there is any domain that involves a variety of 
 
 This research has been carried out to predict the rate of readmission to hospitals of diabetic patients. Hospital readmission is one of the major concerns in The United States of America due to health care being very expensive. The readmission rate of the patients is an indicator for hospitals to improve or work on their quality of services. A higher readmission rate will lead to penalties for hospitals and might affect the cost of care. This research, using the dataset with relevant features, was taken up to figure out which patients have a higher chance of readmission and what factors affect the readmission rate with the help of data analysis, which starts right from the collection of data to using machine learning models and visualizing the results.
 
-**RELATED WORK**
+<h2><u>RELATED WORK</u></h2>
 
 1. **Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records**
 
@@ -112,7 +112,7 @@ This research has been carried out to predict the rate of readmission to hospita
 
 The reduction of risk, which is directly associated with the characteristics, is mainly responsible for the relation between diabetes and factors like age and obesity. There is an increased risk among individuals that have diabetes, taking gender and income rate into account. This is considering the impact on their health status and their access to health services.
 
-**OBJECTIVES OF THE STUDY**
+<h2><u>OBJECTIVES OF THE STUDY</u></h2>
 
 1. To determine the spectrum of the age group that is diabetic. 
 2. To discover the effect of diabetes across races and gender.
@@ -120,13 +120,13 @@ The reduction of risk, which is directly associated with the characteristics, is
 4. To identify the attributes and factors that play a major part in the readmission of diabetic patients
 5. To implement machine learning models to find the best suited algorithm for the problem. 
 
-**DATA COLLECTION**
+<h2><u>DATA COLLECTION</u></h2>
 
 The source of the dataset is from the UCI website, it includes over 50 attributes showing the patient and hospital outcomes. There are more than 100,000 records in this dataset. The dataset contains data of about 10 years at 130 hospitals in The United States of America. The data is present in the form of a CSV file format. Since the volume of the data is large with over 100,000 records and over 50 attributes it should be sufficient to carry out data analysis even after cleaning the data. There is a wide option of features to choose from to use in the Machine Learning models, making it possible to try the implementation of a model with a different set of features. It contains key features like the type of medication, age group, race, gender, admission type, number of lab procedures, number of medications, number of times the patient has been in the hospital which can be used among the models, and so on.
 
 
 
-**Dataset source:**
+<h2><u>Dataset source:</u></h2>
 
 <https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008>
 
@@ -134,7 +134,7 @@ The source of the dataset is from the UCI website, it includes over 50 attribute
 **
 ` `*Img src: https://www.hindawi.com/journals/bmri/2014/781670/tab1/*
 
-**RESEARCH DESIGN AND METHODOLOGY**
+<h2><u>RESEARCH DESIGN AND METHODOLOGY</u></h2>
 
 1. Data collection. 
 2. Substitution the missing data values.
@@ -287,7 +287,7 @@ The below graph shows the relations between readmission rate and the gender.
 ![](Aspose.Words.8702e9dc-8223-4275-9bf1-40353eccbebd.030.png)Classification Report
 
 
-**USAGE OF RESULTS**
+<h2><u>USAGE OF RESULTS</u></h2>
 
 The below table shows the results of all the models implemented in this project.
 
@@ -315,23 +315,23 @@ To compare all the algorithms, the ROC curve was plotted for all the models impl
 
 
 
-**SECURITY, PRIVACY, FAIRNESS AND ETHICS ISSUES**
+<h2><u>SECURITY, PRIVACY, FAIRNESS AND ETHICS ISSUES</u></h2>
 
 Along with the privilege of using medical data, it comes with a lot of privacy issues. Not every patient or hospital is comfortable with sharing the information that they collect on a day-to-day basis. Giving out medical information can sometimes lead to legal complications. There is a streamlined procedure that is involved when it comes to procuring sensitive information. It requires consent and non-disclosure agreements between the hospital/patient and the recipient. Sometimes, medical data is sold illegally for monetary benefits. All this must be taken care of when it comes to medical data. It should not fall in the wrong hands. Doing so can cause distress, grief, and complications to related parties. 
 
-**LIST THE DATASETS TO BE USED**
+<h2><u>LIST THE DATASETS TO BE USED</u></h2>
 
 The dataset used for this project is <https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008>.
 
 This link has two CSV files. One file contains the data, another contains the mapping. It is never sufficient when it comes to medical data because, training models with medical data needs a large amount of training data. Eventually, the goal could be making these predictions real time, as and when data is received. There are many datasets and parameters that can contribute to the rate of readmissions. 
 
-**CONCLUSION**
+<h2><u>CONCLUSION</u></h2>
 
  The topic of the research is to predict the hospital readmission rate of diabetic patients. With the dataset that is being used for the research, after cleaning the data, performing EDA and analysis using Machine Learning models. On carrying out the analysis of the data, two models performed better than the rest. The EDA analysis
 
 ` `showed the evident age group, races, and gender affected by diabetes; the medications prescribed for diabetic patients. The main attributes that were responsible for the readmission of diabetic patients were predicted. By carrying out this research, it was possible to determine the quality of the hospital and the cost incurred by the patients with the following results as health care in The United States is expensive. This research probably might show the capability or inadequacies of hospitals. It also can provide room for improvement for hospitals by concentrating on the key areas. This can help patients control costs incurred by availing healthcare services, and hospitals can build their name by reducing the need to readmit patients at their facility. Application of data science to the field of medicine and health care is extremely helpful and important. It facilitates in taking appropriate decisions for the benefit of the patients as well as the health care givers. 
 
-**BIBLIOGRAPHY**
+<h2><u>BIBLIOGRAPHY</u></h2>
 
 - Strack, B., DeShazo, J. P., Jennings, C., Olmo, J. L., Ventura, S., Cios, K. J., & Clore, J. N. (2014, April). Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records. <https://doi.org/10.1155/2014/781670>.
 - BMC Health Services Research, Wang, W., Fu, C., Zhuo, H., Luo, J., & Xu, B. (2010). Factors affecting costs and utilization of type 2 diabetes healthcare: a cross-sectional survey among 15 hospitals in urban China. <http://www.biomedcentral.com/1472-6963/10/244>.
