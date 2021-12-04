@@ -240,6 +240,16 @@ The below graph shows the relations between the readmission rate and the age gro
 The below graph shows the relations between readmission rate and the gender.
 
 ![image](https://user-images.githubusercontent.com/59897290/144698586-a5a22d16-6f18-4c08-9be5-ea49897d0d48.png)
+
+From the below visualization was done in tableau to understand the dataset better. Below we can see that people who fall in the age group of 70-80 years have the highest number of lab procedures. 
+![image](https://user-images.githubusercontent.com/59897290/144698895-73c5d78e-f872-4981-8c4f-da96e3db2573.png)
+
+The below visualization shows which gender has the highest number of lab procedures, num of medications and number of procedures. We can from the visualization that Females have the highest lab procedures,  procedures and medications. 
+![image](https://user-images.githubusercontent.com/59897290/144698934-1d442390-1c8b-4e9b-80e4-6ed8498efd10.png)
+
+The below visualization shows the number of emergency cases that will arrive at a hospital who need insulin or not during the emergency case with readmission details and gender. 
+![image](https://user-images.githubusercontent.com/59897290/144698944-fb17ae51-7f59-4bc5-b344-6ebc7d508359.png)
+
 The data is split into X\_train,Y\_train, X\_test and Y\_test. These training and testing data are used in the Machine Learning models that are implemented. 
 
 **Logistic Regression**
