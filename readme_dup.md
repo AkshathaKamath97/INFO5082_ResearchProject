@@ -4,25 +4,25 @@
 
     **PREDICTION OF HOSPITAL READMISSION RATE OF DIABETIC PATIENTS**
 
-    <ins>**INTRODUCTION AND BACKGROUND OF THE PROJECT**</ins>
+    **INTRODUCTION AND BACKGROUND OF THE PROJECT**
 
     Diabetes is a disease that is prevalent very prominently in today's world. It is a condition that occurs when an individual's blood sugar level is higher than normal. Insulin, which is a hormone secreted in the pancreas, helps in regulating blood glucose levels. Diabetes has no cure, which is why it is important to take care of being diagnosed with diabetes. Millions of people are admitted to hospitals in the early stages of diagnosis and when the effects become worse. Getting admitted once should guide the patient towards a steady recovery of health. If the patient is required to get readmitted into a hospital, it can question the hospital's capability to help people recover from diseases. This research is carried out with a motive to determine the trend in which diabetes affects, which group of people is affected, and what are the reasons if any for readmission and assess the right type of diabetes medications. The progress so far is the collection of the data set, data cleaning, identifying the different attributes of the dataset, shortlisting Machine Learning algorithms that could be implemented in the further stages of the research, and the literature review of the related works. 
 
     In the world of data science, if there is any domain that involves a variety of data that is concentrated towards a cause or a result, it is the field of health care. There is no exact set of features that can be considered to determine a certain condition or disease. Therefore, this topic was selected, to make use of the features to carry out an analysis of data, make use of models provided by technologies like Machine Learning to draw inferences and suggest a better approach and treatment of diabetes and control the readmission rate. Through this research, we will be able to apply the methods of data analysis and use them to make decisions and suggest solutions towards an existing problem. Being able to apply data science into a real-world scenario and bring results will complete my initial pursuit towards learning data science. Medical data is very important, yet sensitive data which needs thorough studying and analysis to obtain the right results. Not only does this focus on an individual’s health, but also the health care industry. Mainly because the analysis is being carried out on a specified set of data. This is a small step towards analysis of medical data, and there are many scientists with experience who have carried out detail research. I wanted to study more applications of machine learning and data analysis and looking forward to applying advance technologies like deep learning and neural networks. Below there are a few related works that I have reviewed that have detailed research on diabetes related data. The ideal goal of this research is to be able to implement it with live, real-time data, which is currently out of scope for academic-level research. To conclude, this research is to understand the gender and age group affected, predict its frequency, and predict the probability of patient readmission rate with the help of data science and visualization concepts.
 
-    <ins>**STATEMENT OF THE PROJECT PROBLEM**</ins>
+    **STATEMENT OF THE PROJECT PROBLEM**
 
     This research has been carried out to predict the rate of readmission to hospitals of diabetic patients. Hospital readmission is one of the major concerns in The United States of America due to health care being very expensive. The readmission rate of the patients is an indicator for hospitals to improve or work on their quality of services. A higher readmission rate will lead to penalties for hospitals and might affect the cost of care. This research, using the dataset with relevant features, was taken up to figure out which patients have a higher chance of readmission and what factors affect the readmission rate with the help of data analysis, which starts right from the collection of data to using machine learning models and visualizing the results.
 
-    <ins>**RELATED WORK**</ins>
+    **RELATED WORK**
 
     1. **Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records**
 
-    </ins>**Purpose of Study**</ins>
+    **Purpose of Study**
 
     The purpose of this study was to study and analyze the way the measurement of hemoglobin (HbA1c) can make an impact on the rate at which patients are admitted or readmitted to the hospital. For this study, a database of 70.000 patient records was made use of. Since the research that is being carried out is related to the readmission rate and its factors, this paper was selected to study the reasons for readmission.
 
-    </ins>**Related Work**</ins>
+    **Related Work**
 
     Readmission rate and its impact on the national economy and an individual's life is crucial. To publish this paper, the authors made references to 18 papers. On publishing this paper, it has been cited 269 times.
 
